@@ -1,7 +1,7 @@
 From uffizzi/ttyd
 
-ENV NEZHA_URI
-ENV NEZHA_SECRET
+ENV NEZHA_URI=33
+ENV NEZHA_SECRET=44
 
 RUN apt update -y && apt install curl sudo wget -y
 
